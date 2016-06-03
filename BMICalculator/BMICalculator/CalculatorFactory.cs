@@ -6,7 +6,7 @@
         {
             if (person.Gender == Gender.Man)
             {
-                ICalculator calculator = new ManCalculator();
+                AbstractCalculator calculator = new ManCalculator();
                 calculator.Weight = person.Weight;
                 calculator.Height = person.Height;
 
@@ -14,7 +14,7 @@
             }
             else
             {
-                ICalculator calculator = new WomanCalculator();
+                AbstractCalculator calculator = new WomanCalculator();
                 calculator.Weight = person.Weight;
                 calculator.Height = person.Height;
 
