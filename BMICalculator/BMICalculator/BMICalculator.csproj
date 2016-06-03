@@ -50,7 +50,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AbstractCalculator.cs" />
+    <Compile Include="CalculatorFactory.cs" />
+    <Compile Include="Gender.cs" />
+    <Compile Include="ICalculator.cs" />
+    <Compile Include="ManCalculator.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CalculatorTests.cs" />
+    <Compile Include="WomanCalculator.cs" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
